@@ -150,4 +150,7 @@ void main() {
 
         vm->delta(userInput, inputSize);
     }    
+
+    delete vm;
+    delete[] userInput;
 }
